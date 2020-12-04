@@ -14,10 +14,10 @@ import java.util.UUID;
  * @Description:
  */
 public class IDUtils {
+
     public static final Logger logger = LoggerFactory.getLogger(IDUtils.class);
 
     public static void main(String[] args) {
-
         System.out.println(getUuid());
         logger.debug("test");
     }
